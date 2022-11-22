@@ -15,14 +15,15 @@ public class playerControl : MonoBehaviour
     public LayerMask GroundLayer;
     bool isGrounded;
 
-    public List<string> inventory;
+    public List<string> items;
 
     // Start is called before the first frame update
     void Start()
     {
+        items = new List<string>();
+
         rb = GetComponent<Rigidbody2D>();
         scaleX = transform.localScale.x;
-        inventory = new List<string>();
     }
 
     // Update is called once per frame
@@ -78,9 +79,13 @@ public class playerControl : MonoBehaviour
     {
         if(collision.CompareTag("StarItem"))
         {
+            print("we have collected a star");
             string itemType = collision.gameObject.GetComponent<ItemCollecter>().itemType;
-            print("we have collected a: " + itemType);
-            inventory.Add(itemType);
+            print("we have collected a : " + itemType);
+
+            items.Add(itemType);
+            print("Items length: " + items.Count);
+
             Destroy(collision.gameObject);
 
         }
