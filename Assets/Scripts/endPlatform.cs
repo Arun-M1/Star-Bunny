@@ -19,7 +19,7 @@ public class endPlatform : MonoBehaviour
     {
         if(collision.gameObject.name == "Player" && !levelCompleted)
         {
-            if(player.items.Count == 3)
+            if(player.items.Count >= 3)
             {
                 levelCompleted = true;
                 Invoke("CompleteLevel", 2f);
