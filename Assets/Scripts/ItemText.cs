@@ -9,19 +9,22 @@ public class ItemText : MonoBehaviour
 
     private int stars = 0;
 
-    Text starsCount;
+    Text starsCount; 
+
+    void Start()
+    {
+        starsCount = GetComponent<Text>();
+    }
 
     void Awake()
     {
         player = GameObject.Find("Player").GetComponent<playerControl>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("StarItem"))
-        {
-            stars = player.items.Count;
-            starsCount.text = "Stars: " + stars;
-        }
+
+    void Update()
+    { 
+        starsCount.text = "Stars:" + player.items.Count;
     }
+
 }

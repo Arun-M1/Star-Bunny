@@ -79,7 +79,7 @@ public class playerControl : MonoBehaviour
     {
         if(collision.CompareTag("StarItem"))
         {
-            print("we have collected a star");
+            //print("we have collected a star");
             string itemType = collision.gameObject.GetComponent<ItemCollecter>().itemType;
             print("we have collected a : " + itemType);
 
