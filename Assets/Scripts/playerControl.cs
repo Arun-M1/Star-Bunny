@@ -83,6 +83,8 @@ public class playerControl : MonoBehaviour
             string itemType = collision.gameObject.GetComponent<ItemCollecter>().itemType;
             print("we have collected a : " + itemType);
 
+            Debug.Log(collision.gameObject);
+
             items.Add(itemType);
             print("Items length: " + items.Count);
 
