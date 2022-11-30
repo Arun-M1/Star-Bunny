@@ -24,7 +24,7 @@ public class ItemText : MonoBehaviour
 
     void Update()
     { 
-        starsCount.text = "Stars:" + player.items.Count;
+        starsCount.text = "Stars:  " + player.items.Count;
     }
 
 }

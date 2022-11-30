@@ -14,6 +14,7 @@ public class playerControl : MonoBehaviour
     public Transform GroundCheck;
     public LayerMask GroundLayer;
     bool isGrounded;
+    private Animator anim;
 
     public List<string> items;
 
@@ -24,6 +25,8 @@ public class playerControl : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         scaleX = transform.localScale.x;
+
+        anim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -49,7 +52,7 @@ public class playerControl : MonoBehaviour
         if(moveInput > 0)
         {
             transform.localScale = new Vector3((-1) * scaleX, transform.localScale.y, transform.localScale.z);
-        }
+        } 
 
         if (moveInput < 0)
         {
