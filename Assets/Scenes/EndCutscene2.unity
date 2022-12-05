@@ -349,7 +349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 21e2c780b3a725b42be8b5d72106e644, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5516b0180d0f66146bafde6a31a672b9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -571,7 +571,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15.5308, y: -146}
+  m_AnchoredPosition: {x: 15.5308, y: -153}
   m_SizeDelta: {x: 471.9797, y: 71.5501}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1976942698
@@ -596,7 +596,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    m_FontSize: 16
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -607,8 +607,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The engine starts sputtering. Twoear pulls the controller back as he spirals
-    down to a nearby planet, Earth.
+  m_Text: He lands back onto his home planet, safe and sound. "It's good to be back
+    home!"
 --- !u!222 &1976942699
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 203.50189, y: -169.8}
+  m_AnchoredPosition: {x: 203.50189, y: -175}
   m_SizeDelta: {x: 96.9667, y: 25.9336}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2058530375

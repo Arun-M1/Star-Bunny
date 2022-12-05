@@ -58,6 +58,14 @@ public class playerControl : MonoBehaviour
         {
             transform.localScale = new Vector3(scaleX, transform.localScale.y, transform.localScale.z);
         }
+
+        if(moveInput == 0 && isGrounded)
+        {
+            anim.SetBool("hop", false);
+        } else
+        {
+            anim.SetBool("hop", true);
+        } 
     }
 
     public void Jump()

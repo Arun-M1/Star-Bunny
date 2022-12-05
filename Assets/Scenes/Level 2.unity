@@ -439,7 +439,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 55f2d3f02345e1d409ef1819069d1de0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e78d0edf591c5f47bc4c4a422a2a538, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -494,7 +494,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561205705}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.034, z: 0}
   m_LocalScale: {x: 0.34778786, y: 0.34778786, z: 0.34778786}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -511,7 +511,7 @@ Animator:
   m_GameObject: {fileID: 561205705}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9e05b19ba2495464dab27ce083702c7c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0c9fa35e7a7961745a5444b0ca62045c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -561,8 +561,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: -616438499, guid: 60a3b4cc28cc0f44894d57ab73c9daab, type: 3}
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 133652946, guid: 7cedfc7f25b42da46887c6921c996d78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -827,7 +827,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 55f2d3f02345e1d409ef1819069d1de0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e78d0edf591c5f47bc4c4a422a2a538, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -901,7 +901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1303,7 +1303,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 0e1d0bb4e7a211940a3ed0b8ba096da3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 862e15d2e1fae594a9aaa58f1a6b9b0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1322,7 +1322,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562034932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.57, y: -4.35, z: 0}
+  m_LocalPosition: {x: 7.707, y: -4.361, z: 0}
   m_LocalScale: {x: 1.5303, y: 1.5303, z: 1.5303}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1449,8 +1449,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 95.2, y: -28.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 108.3329, y: -50.82599}
+  m_SizeDelta: {x: 186.2658, y: 74.652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1679368840
 MonoBehaviour:
@@ -1474,7 +1474,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    m_FontSize: 20
+    m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -2118,23 +2118,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6888343764746779809, guid: af152a6ae2731b74583b29f8cebc1ba7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5082394
+      value: 0.4573138
       objectReference: {fileID: 0}
     - target: {fileID: 6888343764746779809, guid: af152a6ae2731b74583b29f8cebc1ba7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1575179
+      value: 0.1417346
       objectReference: {fileID: 0}
     - target: {fileID: 6888343764746779809, guid: af152a6ae2731b74583b29f8cebc1ba7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.86742
+      value: 0.7805045
       objectReference: {fileID: 0}
     - target: {fileID: 6888343764746779809, guid: af152a6ae2731b74583b29f8cebc1ba7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.55
+      value: 7.6
       objectReference: {fileID: 0}
     - target: {fileID: 6888343764746779809, guid: af152a6ae2731b74583b29f8cebc1ba7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.9374
+      value: -4.94
       objectReference: {fileID: 0}
     - target: {fileID: 6888343764746779809, guid: af152a6ae2731b74583b29f8cebc1ba7, type: 3}
       propertyPath: m_LocalPosition.z
